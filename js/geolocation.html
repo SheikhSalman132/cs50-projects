@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <h1 id="loc"> </h1>
+
+
+   <script>
+
+            navigator.geolocation.getCurrentPosition(function(position ){
+            
+                document.getElementById("loc").innerText = (position.coords.latitude + ", " + position.coords.longitude );
+            });
+
+   </script> 
+
+
+
+
+</body>
+</html>

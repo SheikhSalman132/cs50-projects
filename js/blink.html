@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blink</title>
+</head>
+<body>
+
+     <h1 id="myHeading">AOA</h1>
+
+
+
+
+  <script>
+
+
+
+    function cblink(elementID, interval = 500) {
+      let element = document.getElementById(elementID);
+      let visible = true;
+
+      setInterval(function () {
+
+//if (visible == true){
+//element.style.visibility = 'hidden';}
+// else{element.style.visibility = 'visible';}
+
+
+        element.style.visibility = visible ? "hidden" : "visible";
+
+
+        visible = !visible; // flip it!
+
+
+      }, interval);
+    }
+
+    // Call the function after the element is loaded
+    cblink("myHeading", 700);  // Blink every 0.7 seconds
+  </script>
+</body>
+</html>
