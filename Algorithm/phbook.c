@@ -3,8 +3,8 @@
 
 int main(void)
                   {
- char* names[] = {"Salman", "Furqan"};
-char* numbers[]={"+92-333444999000", "+92 69966996699"};
+ char* names[] = {"Salman", "meeee"};
+char* numbers[]={"+92-333444999000", "+1-9966996699"};
 
 char name [100]; 
  { printf("name: ");
