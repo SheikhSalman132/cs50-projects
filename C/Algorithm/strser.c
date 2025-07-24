@@ -4,7 +4,7 @@
 
 int main (void)
 {
-    char* strings[] = {"sec", "now", "69", "lets"," dooo", "it"};
+    char* strings[] = {"hi", "now", "hello", "lets"," gooo", "now"};
     char s[100];
 
     {
