@@ -1,7 +1,7 @@
 import sys 
 
 
-names= ["salman", "ali", "umer", "furqan"]
+names= ["salman", "ali", "umer", "Ahmad"]
 name = input("NAME ")
 for n in names:
                if name == n :
