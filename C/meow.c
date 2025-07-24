@@ -12,7 +12,7 @@ while (i < 5)
 
 for (int i=0; i < 6; i++)
 {
-     printf("wooooo eooooo wooooo woopooo oowwomp oowomp wwoommpp!");
+     printf("meow meowww meowwwww!");
 }
 
 while (true)
