@@ -5,6 +5,6 @@ int main(void)
 {
 
  
-    printf("I got  100%% in sex hurrry! \n");
+    printf("hello\n");
 
 }
