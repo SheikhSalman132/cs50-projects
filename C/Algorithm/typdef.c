@@ -14,10 +14,10 @@ int main()
     char input[30];
     
     person[0].name="Salman";
-    person[0].number="+92-3332627926";
+    person[0].number="+92-76897676966y";
 
-    person[1].name="furqan";
-    person[1].number="+92-3056432118";
+    person[1].name="meeeee";
+    person[1].number="8578578585;
 
    
 
